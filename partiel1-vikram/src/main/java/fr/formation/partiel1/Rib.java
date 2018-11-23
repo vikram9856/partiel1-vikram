@@ -1,6 +1,6 @@
 package fr.formation.partiel1;
 
-public class Rib{
+public class Rib {
 	String codeBanque;
 	String codeGuichet;
 	String numeroDeCompte;

@@ -1,30 +1,43 @@
 package fr.formation.partiel1;
 
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.util.Date;
 
 public class Virement {
-	
-	int amount;
-	Date date;
 
+	float amount;
+	LocalDateTime dateExecution;
+	LocalDate date;
 
-	Date dateExecution;
-	
-	public Virement(int amount, Date date, Date dateExecution) {
-		this.amount = amount;
-		this.date = date;
-		this.dateExecution = dateExecution;			
-	}	
-	
-	public int getAmount() {
+	public float getAmount() {
 		return amount;
 	}
 
-	public Date getDate() {
+	public LocalDateTime getDateExecution() {
+		return dateExecution;
+	}
+
+	public LocalDate getDate() {
 		return date;
 	}
 
-	public Date getDateExecution() {
-		return dateExecution;
+	public Virement(float amount, LocalDateTime dateExecution, LocalDate date) {
+		this.amount = amount;
+		this.date = date;
+		this.dateExecution = dateExecution;
 	}
+
+	public void setAmount(float amount) {
+		this.amount = amount;
+	}
+
+	public void setDateExecution(LocalDateTime dateExecution) {
+		this.dateExecution = dateExecution;
+	}
+
+	public void setDate(LocalDate date) {
+		this.date = date;
+	}
+
 }
