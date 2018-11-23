@@ -8,10 +8,19 @@ class IbanTest {
 
 	@Test
 	void testcodePaysStandardIsoIsNotNull() {
+		assertNotNull(() -> {
+			new CodePaysStandartIso("FR");
+		});
 
-		int codePaysStandardIso = 0;
-		Iban codePays = new Iban(codePaysStandardIso);
 		
+		
+	}
+	
+	@Test
+	void testcleDeControlIsNotNull() {
+		assertNotNull(() -> {
+			new cleDeControl();
+		});
 	}
 
 }

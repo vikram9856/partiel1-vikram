@@ -1,17 +1,17 @@
 package fr.formation.partiel1;
 
 public class Iban {
-	int codePaysStandardIso;
+	String codePaysStandardIso;
 	int cleDeControle;
 	
 
 
-	public Iban(int codePaysStandardIso, int cleDeControle) {
+	public Iban(String codePaysStandardIso, int cleDeControle) {
 		this.codePaysStandardIso = codePaysStandardIso;
 		this.cleDeControle = cleDeControle;
 	}
 	
-	public int getCodePaysStandardIso() {
+	public String getCodePaysStandardIso() {
 		return codePaysStandardIso;
 	}
 

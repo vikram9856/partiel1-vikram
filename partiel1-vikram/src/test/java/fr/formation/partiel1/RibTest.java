@@ -10,7 +10,7 @@ class RibTest {
 	void shouldContructRib() {
 		assertDoesNotThrow(() -> {
 			new Rib("30002","00550", "0000157841Z","25");
-		};
+		});
 	}
 
 }

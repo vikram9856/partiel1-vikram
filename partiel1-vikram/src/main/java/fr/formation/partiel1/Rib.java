@@ -1,38 +1,76 @@
 package fr.formation.partiel1;
 
 public class Rib{
-	private int codeBanque;
-	private int codeGuichet;
-	private int numeroDeCompte;
-	private int cleRib;
+	String codeBanque;
+	String codeGuichet;
+	String numeroDeCompte;
+	String cleRib;
 
 	
-	public Rib(int codeBanque, int codeGuichet, int numeroDeCompte, int cleRib) {		
-		this.codeBanque = codeBanque;
-		this.codeGuichet = codeGuichet;
-		this.numeroDeCompte = numeroDeCompte;
-		this.cleRib = cleRib;
+
+
+	public Rib(String codeBanque, String codeGuichet, String numeroDeCompte, String cleRib) {
+		// TODO Auto-generated constructor stub
 	}
 
 
-	public int getCodeBanque() {
+
+
+	public String getCodeBanque() {
 		return codeBanque;
 	}
 
 
-	public int getCodeGuichet() {
+
+
+	public String getCodeGuichet() {
 		return codeGuichet;
 	}
 
 
-	public int getNumeroDeCompte() {
+
+
+	public String getNumeroDeCompte() {
 		return numeroDeCompte;
 	}
 
 
-	public int getCleRib() {
+
+
+	public String getCleRib() {
 		return cleRib;
 	}
+
+
+
+
+	public void setCodeBanque(String codeBanque) {
+		this.codeBanque = codeBanque;
+	}
+
+
+
+
+	public void setCodeGuichet(String codeGuichet) {
+		this.codeGuichet = codeGuichet;
+	}
+
+
+
+
+	public void setNumeroDeCompte(String numeroDeCompte) {
+		this.numeroDeCompte = numeroDeCompte;
+	}
+
+
+
+
+	public void setCleRib(String cleRib) {
+		this.cleRib = cleRib;
+	}
+
+
+	
 	
 
 }
